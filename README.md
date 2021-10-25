@@ -4,15 +4,8 @@ On this branch you will see different types of patterns and there codes in pytho
 
 Also, we will try to do complexity analysis.
 
-## Index:
-```
-Problem 1:  Print pattern
-A
-BC
-DEF
-GHIJ
-.
-.
-... upto Z```
-------------------------------------------------------------------
-Solution: p1.py
+## Table of content
+
+| S No.: | Problem | Solution |
+|   :--- | :---    | :---     |
+| 1 | Print Pattern:<br>A<br>BC<br>DEF<br>GHIJ<br>.<br>.<br>... upto Z | p1.py |
