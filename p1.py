@@ -39,7 +39,7 @@ def print_pattern_solution_1():
         print(alphabet, end=end)
     print()
 
-print_pattern_solution_1()
+# Executed 100000 time in 2.9073073863983154 second(s).
 # END: SOLUTION 1
 
 
@@ -55,5 +55,10 @@ def print_pattern_solution_2():
                 break
         print()
 
-print_pattern_solution_2()
+# Executed 100000 time in 3.07146954536438 second(s).
 # END: SOLUTION 2
+
+
+if __name__ == '__main__':
+    print_pattern_solution_1()
+    print_pattern_solution_2()
