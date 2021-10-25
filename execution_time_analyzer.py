@@ -8,10 +8,11 @@ def block_print_statement():
 def enable_print_statement():
     sys.stdout = sys.__stdout__
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-f', '--filename', help='File from which method needs to be executed')
-parser.add_argument('-m', '--method', help='Method which needs to be executed')
-parser.add_argument('-i', '--iterations', help='Method which needs to be executed', default=10)
+parser = argparse.ArgumentParser(description='Average execution time analyzer using iterative approach.')
+required_arguments = parser.add_argument_group('required arguments')
+required_arguments.add_argument('-f', '--filename', type=str, help='File from which method needs to be executed', required=True)
+required_arguments.add_argument('-m', '--method', type=str, help='Method which needs to be executed', required=True)
+parser.add_argument('-i', '--iterations', type=int, help='Method which needs to be executed. [default=10]', default=10)
 
 args = parser.parse_args()
 
