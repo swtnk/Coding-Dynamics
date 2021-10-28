@@ -1,3 +1,12 @@
+# -*- coding: utf-8 -*-
+
+__author__ = "Swetank Subham"
+__credits__ = ["Swetank Subham"]
+__license__ = "GPL"
+
+__maintainer__ = "Swetank Subham"
+__website__ = "https://swetanksubham.com/"
+
 import os, sys, argparse
 from importlib import import_module
 from time import time
