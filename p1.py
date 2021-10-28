@@ -7,7 +7,8 @@ __license__ = "GPL"
 __maintainer__ = "Swetank Subham"
 __website__ = "https://swetanksubham.com/"
 
-""" PROBLEM: Print pattern
+"""
+PROBLEM: Print below mentioned pattern:
 A
 BC
 DEF
