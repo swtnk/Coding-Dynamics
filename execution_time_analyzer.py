@@ -29,14 +29,15 @@ module = import_module(args.filename)
 method = getattr(module, args.method)
 iterations = args.iterations
 
-st = time()
 ITERATIONS = int(iterations) if iterations else 10
 
 block_print_statement()
 
+st = time()
 for _ in range(ITERATIONS):
     method()
+et = time()
 
 enable_print_statement()
 
-print(f'Executed { ITERATIONS } time in { time() - st } second(s).')
+print(f'Executed { ITERATIONS } time in { et - st } second(s).')
