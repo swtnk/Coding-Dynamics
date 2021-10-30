@@ -12,6 +12,7 @@ Also, we will try to do complexity analysis.
 | 1 | Print Pattern:<br>A<br>BC<br>DEF<br>GHIJ<br>.<br>.<br>... upto Z | [p1.py](p1.py) |
 | 2 | Print Pattern:<br>\*\*\*\*\*<br>\*\*\*\*\*<br>\*\*\*\*\* | [p2.py](p2.py) |
 | 3 | Print Pattern:<br>\*\*\*\*\*<br>\*&nbsp; &nbsp; &nbsp;\*<br>\*&nbsp; &nbsp; &nbsp;\*<br>\*\*\*\*\* | [p3.py](p3.py) |
+| 3 | Print Pattern:<br>\*<br>\*\*<br>\*\*\*<br>\*\*\*\*<br>\*\*\*\*\*<br>\*\*\*\*\*\* | [p4.py](p4.py) |
 
 [*NOTE] To check execution time of any solution you can execute following command:
 ```
